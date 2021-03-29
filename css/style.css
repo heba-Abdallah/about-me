@@ -1,0 +1,63 @@
+body{
+    background-image: url("https://cdn.salla.sa/xLM2si5JQiwTJKuvt4xXlbeg847zmd8QuxhLJfZj.jpeg");
+    background-color:#f0e4d7 ;
+    margin: 10%;
+}
+header{
+    color: #ffc93c;
+    background-color: #eff7e1 ;
+    height: 90px;
+}
+header nav{
+    float:right;
+    width: 20%;
+    margin-top: 0px;
+}
+header h1{
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    font-weight: 700;
+}
+header nav ul li a{
+    color: #fed049;
+    text-decoration: none;
+    font-weight: 900;
+}
+.words{
+    border: 2px solid #d49d42;
+    background-color:white ;
+    width: 80%;
+    height: 50%;
+    text-align: center;
+    margin: 30px 50px 10px 110px;
+}
+.words h3{
+    font-size: 30px;
+    color: #ffcc29;
+}
+.words p{
+    font-size: 30px;
+    color: #f88f01;
+    margin: 40px 0px 0px 0px;
+}
+#pic {
+    text-align: center;
+    display: inline-block;
+    height: 450px;
+    width: 45%;
+    margin: 60px 20px 30px 0px;
+}
+footer{
+    height: 90px;
+    color: #f88f01;
+    background-color: #ffeebb;
+}
+footer p{
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    font-weight: 700;
+}
