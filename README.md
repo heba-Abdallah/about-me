@@ -16,3 +16,8 @@
 
 *I add a score to my questions to know how you are doing in kwoning me*
 
+<ul>
+<li>How did this go, overall? it was a bit difficult for me but i find the solution for it</li>
+<li>What observations or questions do you have about what you’ve learned so far? about two for loop</li>
+<li>How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment? it took me for ever to solve it hehe</li>
+
