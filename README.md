@@ -14,4 +14,5 @@
 <li>How long did it take you to complete this assignment? it take me 3 houres</li>
 </ol>
 
+*I add a score to my questions to know how you are doing in kwoning me*
 

@@ -3,14 +3,22 @@
 alert("HI THERE");
 
 let yourName = prompt('what\'s your name?')
+while (!yourName) {
+    yourName = prompt('pleas put your name');
+}
 alert("wlecome " + yourName);
 
 let name = prompt('Is My Name HebaEssam?');
-name = name.toUpperCase();
+let score = 0;
 
+while (name !== 'yes' && name !== 'y' && name !== 'no' && name !== 'n') {
+    name = prompt('please choose YES/No');
+}
+name = name.toUpperCase();
 if (name === 'YES' || name === 'Y') {
-    // console.log(myName);
+    // console.log(name);
     alert(name);
+    score++;
 } else if (name === 'NO' || name === 'N') {
     // console.log('No My name is Heba Essam');
     alert('No My name is Heba Essam');
@@ -19,22 +27,31 @@ if (name === 'YES' || name === 'Y') {
 }
 
 let age = prompt('Is My Age 28?');
+
+while (age !== 'yes' && age !== 'y' && age !== 'no' && age !== 'n') {
+    age = prompt('please choose YES/No')
+}
 age = age.toUpperCase();
-if (age === 'YES' || age === 'Y') {
-    // console.log(myAge);
-    alert(name);
+if (age === 'YES' || age == 'Y') {
+    // console.log(age);
+    alert(age);
+    score++;
 } else if (age === 'NO' || age === 'N') {
-     // console.log('No Me Age is 28');
-    alert('No Me Age is 28');
+    // console.log('No my Age is 28');
+    alert('No My Age is 28');
 } else {
     ('please answer with only yes/y or no/n');
-} 
-   
+}
+
 let nationality = prompt('Do I Have A Jordanian Nationality?');
+while (nationality !== 'yes' && nationality !== 'y' && nationality !== 'no' && nationality !== 'n') {
+    nationality = prompt('please choose YES/No');
+}
 nationality = nationality.toUpperCase();
 if (nationality === 'YES' || nationality === 'Y') {
-    // console.log(myNationality);
+    // console.log(nationality);
     alert(nationality);
+    score++;
 } else if (nationality === 'NO' || nationality === 'N') {
     // console.log('My Nationality Is Jordanian');
     alert('My Nationality Is Jordanian');
@@ -42,12 +59,16 @@ if (nationality === 'YES' || nationality === 'Y') {
 } else {
     ('please answer with only yes/y or no/n');
 }
-    
+
 let hobbies = prompt('Is My Hobby Reading?');
+while (hobbies !== 'yes' && hobbies !== 'y' && hobbies !== 'no' && hobbies !== 'n') {
+    hobbies = prompt('please choose YES/No');
+}
 hobbies = hobbies.toLowerCase();
 if (hobbies === 'yes' || hobbies === 'y') {
-    // console.log(myHobbies);
-    alert(myHobbies);
+    // console.log(hobbies);
+    alert(hobbies);
+    score++;
 } else if (hobbies === 'no' || hobbies === 'n') {
     // console.log('My Hobbies Is Reading');
     alert('My Hobbies Is Reading');
@@ -56,15 +77,59 @@ if (hobbies === 'yes' || hobbies === 'y') {
 }
 
 let study = prompt('Did I Study Communication Engineering in BAU?');
+while (study !== 'yes' && study !== 'y' && study !== 'no' && study !== 'n') {
+    study = prompt('please choose YES/No');
+}
 study = study.toLowerCase();
 if (study === 'yes' || study === 'y') {
-    // console.log(myStudy);
-    alert(myStudy);
+    // console.log(study);
+    alert(study);
+    score++;
 } else if (study === 'no' || study === 'n') {
-    // console.log('My Study Major Is Communication Engineering');
-    alert('My Hobbies Is Reading');
+    console.log('My Study Major Is Communication Engineering');
+    // alert('My Hobbies Is Reading');
 } else {
     ('please answer with only yes/y or no/n')
-} 
+}
 
-alert("Thank You For Visiting My Web Page " + yourName);
+for (let i = 0; i < 4; i++) {
+    let yourNumber = prompt('what day is my birthday?');
+
+    if (i == 3) {
+        // console.log('its 28');
+        alert("its 28")
+    }
+    else if (yourNumber < 28) {
+        // console.log('low');
+        alert('too low');
+
+    } else if (yourNumber > 28) {
+        // console.log('big');
+        alert('too big');
+
+    } else if (yourNumber == 28) {
+        // console.log('right');
+        alert('right');
+        score++;
+        break;
+    }
+} 
+let food = ["pizza", "fries", "cheese", "kabseh", "coffee"]
+for (let j = 0; j < 6; j++) {
+ let yourFood = prompt('choosh pizza/fries/cheese/kabseh/coffee');
+    
+    for (let i = 0; i < food.length; i++) {
+        yourFood = yourFood.toLowerCase();
+        if (yourFood == food[i]) {
+            alert(yourFood + 'yes');
+            j=6;
+            score++;
+            break;
+        } else if (yourFood !== food[i]){
+            alert('no');
+        }
+        break;
+    }
+// console.log(j);
+} alert('the is ' + food);
+    alert('thanks for playing ' + yourName +' your score is ' + score);

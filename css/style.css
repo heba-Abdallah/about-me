@@ -26,7 +26,9 @@ header nav ul li a{
     font-weight: 900;
 }
 .words{
-    border: 2px solid #d49d42;
+    border: 5px double ;
+    border-color: #d49d42 #f9f871 #d49d42 #f9f871;
+    border-radius: 10px;
     background-color:white ;
     width: 80%;
     height: 50%;
@@ -36,6 +38,14 @@ header nav ul li a{
 .words h3{
     font-size: 30px;
     color: #ffcc29;
+}
+.words h4{
+    font-size: 40px;
+    color: #d44000;
+}
+main .words ol li{
+    font-size: 30px;
+    color: #e9896a;
 }
 .words p{
     font-size: 30px;
