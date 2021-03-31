@@ -18,7 +18,8 @@
 ## Monday 29/3/2021 LAB 2
 **I added 5 different questions to my web page**
 <ol>
-<li>How did this go, overall? /n its going will actually</li>
+<li>How did this go, overall?
+its going will actually</li>
 <li>What observations or questions do you have about what you’ve learned so far? evreything is good for now</li>
 <li>How long did it take you to complete this assignment? it take me 3 houres</li>
 </ol>
