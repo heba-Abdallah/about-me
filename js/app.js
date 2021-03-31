@@ -1,7 +1,7 @@
 'ues strict';
 
 alert("HI THERE");
-
+let score = 0;
 let yourName = prompt('what\'s your name?')
 while (!yourName) {
     yourName = prompt('pleas put your name');
@@ -9,7 +9,7 @@ while (!yourName) {
 alert("wlecome " + yourName);
 
 let name = prompt('Is My Name HebaEssam?');
-let score = 0;
+
 
 while (name !== 'yes' && name !== 'y' && name !== 'no' && name !== 'n') {
     name = prompt('please choose YES/No');
@@ -113,23 +113,27 @@ for (let i = 0; i < 4; i++) {
         score++;
         break;
     }
-} 
+}
+let yourFood = '';
 let food = ["pizza", "fries", "cheese", "kabseh", "coffee"]
 for (let j = 0; j < 6; j++) {
- let yourFood = prompt('choosh pizza/fries/cheese/kabseh/coffee');
-    
+    yourFood = prompt('what\s food do I like?');
+
     for (let i = 0; i < food.length; i++) {
         yourFood = yourFood.toLowerCase();
-        if (yourFood == food[i]) {
-            alert(yourFood + 'yes');
-            j=6;
+        if (food[i] === yourFood) {
+            alert(yourFood + ' correct');
+            j = 6;
             score++;
-            break;
-        } else if (yourFood !== food[i]){
-            alert('no');
+            // break;
         }
+
+    } if (j == 5) {
+        alert('this is ' + food);
         break;
+    } else if (j < 6) {
+        alert('no it\s not sorry');
     }
-// console.log(j);
-} alert('the is ' + food);
-    alert('thanks for playing ' + yourName +' your score is ' + score);
+}
+
+alert('thanks for playing ' + yourName + ' your score is ' + score);
