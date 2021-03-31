@@ -73,22 +73,26 @@ if (nationality === 'YES' || nationality === 'Y') {
 }
 question3();
 
-// let hobbies = prompt('Is My Hobby Reading?');
-// while (hobbies !== 'yes' && hobbies !== 'y' && hobbies !== 'no' && hobbies !== 'n') {
-//     hobbies = prompt('please choose YES/No');
-// }
-// hobbies = hobbies.toLowerCase();
-// if (hobbies === 'yes' || hobbies === 'y') {
-//     // console.log(hobbies);
-//     alert(hobbies);
-//     score++;
-// } else if (hobbies === 'no' || hobbies === 'n') {
-//     // console.log('My Hobbies Is Reading');
-//     alert('My Hobbies Is Reading');
-// } else {
-//     ('please answer with only yes/y or no/n');
-// }
+function question4() {
+    
 
+let hobbies = prompt('Is My Hobby Reading?');
+while (hobbies !== 'yes' && hobbies !== 'y' && hobbies !== 'no' && hobbies !== 'n') {
+    hobbies = prompt('please choose YES/No');
+}
+hobbies = hobbies.toLowerCase();
+if (hobbies === 'yes' || hobbies === 'y') {
+    // console.log(hobbies);
+    alert(hobbies);
+    score++;
+} else if (hobbies === 'no' || hobbies === 'n') {
+    // console.log('My Hobbies Is Reading');
+    alert('My Hobbies Is Reading');
+} else {
+    ('please answer with only yes/y or no/n');
+}
+}
+question4();
 // let study = prompt('Did I Study Communication Engineering in BAU?');
 // while (study !== 'yes' && study !== 'y' && study !== 'no' && study !== 'n') {
 //     study = prompt('please choose YES/No');
