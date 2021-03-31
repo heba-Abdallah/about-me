@@ -14,16 +14,31 @@
 - the driver for this code was : (https://github.com/Ahmad-AbuOsbeh)[Ahmad-AbuOsbeh]
 
 ### THANK YOU
+
+## Monday 29/3/2021 LAB 2
+**I added 5 different questions to my web page**
 <ol>
-<li>How did this go, overall? its going will actually</li>
+<li>How did this go, overall? /n its going will actually</li>
 <li>What observations or questions do you have about what you’ve learned so far? evreything is good for now</li>
 <li>How long did it take you to complete this assignment? it take me 3 houres</li>
 </ol>
 
-*I add a score to my questions to know how you are doing in kwoning me*
+## Tuesday 30/3/2021 LAB 3
+**I added two questions**
+*I added a score to my questions to know how you are doing in kwoning me*
 
 <ul>
 <li>How did this go, overall? it was a bit difficult for me but i find the solution for it</li>
 <li>What observations or questions do you have about what you’ve learned so far? about two for loop</li>
 <li>How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment? it took me for ever to solve it hehe</li>
 
+
+## Wednesday 31/3/2021 LAB 4
+**I and my partner did the pair programming and added the functions for each question**
+
+- How did the pair programming process go in general? It was
+Did you learn anything from your partner? If so, what?
+What was the most difficult part of the assignment today?
+What was the easiest part of the assignment today?
+Anything else you’d like to share?
+How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
