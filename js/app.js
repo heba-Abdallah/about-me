@@ -142,26 +142,32 @@ for (let i = 0; i < 4; i++) {
 }
 }
 question6();
-// let yourFood = '';
-// let food = ["pizza", "fries", "cheese", "kabseh", "coffee"]
-// for (let j = 0; j < 6; j++) {
-//     yourFood = prompt('what\s food do I like?');
 
-//     for (let i = 0; i < food.length; i++) {
-//         yourFood = yourFood.toLowerCase();
-//         if (food[i] === yourFood) {
-//             alert(yourFood + ' correct');
-//             j = 6;
-//             score++;
-//             // break;
-//         }
+function question7() {
+    
 
-//     } if (j == 5) {
-//         alert('this is ' + food);
-//         break;
-//     } else if (j < 6) {
-//         alert('no it\s not sorry');
-//     }
-// }
+let yourFood = '';
+let food = ["pizza", "fries", "cheese", "kabseh", "coffee"]
+for (let j = 0; j < 6; j++) {
+    yourFood = prompt('what\s food do I like?');
 
-// alert('thanks for playing ' + yourName + ' your score is ' + score);
+    for (let i = 0; i < food.length; i++) {
+        yourFood = yourFood.toLowerCase();
+        if (food[i] === yourFood) {
+            alert(yourFood + ' correct');
+            j = 6;
+            score++;
+            // break;
+        }
+
+    } if (j == 5) {
+        alert('this is ' + food);
+        break;
+    } else if (j < 6) {
+        alert('no it\s not sorry');
+    }
+}
+}
+question7();
+
+alert('thanks for playing ' + yourName + ' your score is ' + score);
