@@ -50,22 +50,28 @@ if (age === 'YES' || age == 'Y') {
 }
 question2();
 
-// let nationality = prompt('Do I Have A Jordanian Nationality?');
-// while (nationality !== 'yes' && nationality !== 'y' && nationality !== 'no' && nationality !== 'n') {
-//     nationality = prompt('please choose YES/No');
-// }
-// nationality = nationality.toUpperCase();
-// if (nationality === 'YES' || nationality === 'Y') {
-//     // console.log(nationality);
-//     alert(nationality);
-//     score++;
-// } else if (nationality === 'NO' || nationality === 'N') {
-//     // console.log('My Nationality Is Jordanian');
-//     alert('My Nationality Is Jordanian');
+function question3() {
+    
 
-// } else {
-//     ('please answer with only yes/y or no/n');
-// }
+
+let nationality = prompt('Do I Have A Jordanian Nationality?');
+while (nationality !== 'yes' && nationality !== 'y' && nationality !== 'no' && nationality !== 'n') {
+    nationality = prompt('please choose YES/No');
+}
+nationality = nationality.toUpperCase();
+if (nationality === 'YES' || nationality === 'Y') {
+    // console.log(nationality);
+    alert(nationality);
+    score++;
+} else if (nationality === 'NO' || nationality === 'N') {
+    // console.log('My Nationality Is Jordanian');
+    alert('My Nationality Is Jordanian');
+
+} else {
+    ('please answer with only yes/y or no/n');
+}
+}
+question3();
 
 // let hobbies = prompt('Is My Hobby Reading?');
 // while (hobbies !== 'yes' && hobbies !== 'y' && hobbies !== 'no' && hobbies !== 'n') {
