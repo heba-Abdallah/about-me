@@ -28,22 +28,27 @@ function question1() {
 }
 question1();
 
-// let age = prompt('Is My Age 28?');
+function question2 () {
+    
 
-// while (age !== 'yes' && age !== 'y' && age !== 'no' && age !== 'n') {
-//     age = prompt('please choose YES/No')
-// }
-// age = age.toUpperCase();
-// if (age === 'YES' || age == 'Y') {
-//     // console.log(age);
-//     alert(age);
-//     score++;
-// } else if (age === 'NO' || age === 'N') {
-//     // console.log('No my Age is 28');
-//     alert('No My Age is 28');
-// } else {
-//     ('please answer with only yes/y or no/n');
-// }
+let age = prompt('Is My Age 28?');
+
+while (age !== 'yes' && age !== 'y' && age !== 'no' && age !== 'n') {
+    age = prompt('please choose YES/No')
+}
+age = age.toUpperCase();
+if (age === 'YES' || age == 'Y') {
+    // console.log(age);
+    alert(age);
+    score++;
+} else if (age === 'NO' || age === 'N') {
+    // console.log('No my Age is 28');
+    alert('No My Age is 28');
+} else {
+    ('please answer with only yes/y or no/n');
+}
+}
+question2();
 
 // let nationality = prompt('Do I Have A Jordanian Nationality?');
 // while (nationality !== 'yes' && nationality !== 'y' && nationality !== 'no' && nationality !== 'n') {
