@@ -115,28 +115,33 @@ if (study === 'yes' || study === 'y') {
 }
 question5();
 
-// for (let i = 0; i < 4; i++) {
-//     let yourNumber = prompt('what day is my birthday?');
+function question6() {
+    
 
-//     if (i == 3) {
-//         // console.log('its 28');
-//         alert("its 28")
-//     }
-//     else if (yourNumber < 28) {
-//         // console.log('low');
-//         alert('too low');
+for (let i = 0; i < 4; i++) {
+    let yourNumber = prompt('what day is my birthday?');
 
-//     } else if (yourNumber > 28) {
-//         // console.log('big');
-//         alert('too big');
+    if (i == 3) {
+        // console.log('its 28');
+        alert("its 28")
+    }
+    else if (yourNumber < 28) {
+        // console.log('low');
+        alert('too low');
 
-//     } else if (yourNumber == 28) {
-//         // console.log('right');
-//         alert('right');
-//         score++;
-//         break;
-//     }
-// }
+    } else if (yourNumber > 28) {
+        // console.log('big');
+        alert('too big');
+
+    } else if (yourNumber == 28) {
+        // console.log('right');
+        alert('right');
+        score++;
+        break;
+    }
+}
+}
+question6();
 // let yourFood = '';
 // let food = ["pizza", "fries", "cheese", "kabseh", "coffee"]
 // for (let j = 0; j < 6; j++) {
