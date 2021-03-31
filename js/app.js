@@ -93,21 +93,27 @@ if (hobbies === 'yes' || hobbies === 'y') {
 }
 }
 question4();
-// let study = prompt('Did I Study Communication Engineering in BAU?');
-// while (study !== 'yes' && study !== 'y' && study !== 'no' && study !== 'n') {
-//     study = prompt('please choose YES/No');
-// }
-// study = study.toLowerCase();
-// if (study === 'yes' || study === 'y') {
-//     // console.log(study);
-//     alert(study);
-//     score++;
-// } else if (study === 'no' || study === 'n') {
-//     console.log('My Study Major Is Communication Engineering');
-//     // alert('My Hobbies Is Reading');
-// } else {
-//     ('please answer with only yes/y or no/n')
-// }
+
+function question5() {
+    
+
+let study = prompt('Did I Study Communication Engineering in BAU?');
+while (study !== 'yes' && study !== 'y' && study !== 'no' && study !== 'n') {
+    study = prompt('please choose YES/No');
+}
+study = study.toLowerCase();
+if (study === 'yes' || study === 'y') {
+    // console.log(study);
+    alert(study);
+    score++;
+} else if (study === 'no' || study === 'n') {
+    console.log('My Study Major Is Communication Engineering');
+    // alert('My Hobbies Is Reading');
+} else {
+    ('please answer with only yes/y or no/n')
+}
+}
+question5();
 
 // for (let i = 0; i < 4; i++) {
 //     let yourNumber = prompt('what day is my birthday?');
