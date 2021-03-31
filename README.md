@@ -7,6 +7,12 @@
 [samer-allaham starter code
 ](https://github.com/LTUC/amman-201d20/tree/main/configs)
 
+- I did the pair programming with Ahmad Abu Osbeh today, and added a seven functions for the questions in JS code, each question putted in the one function.
+- I got a repo from another user, and forked it then clone it, after that I editied his code, then I ACP this code and pushed it in my github account, then made the pull request to the owner to accept the editing on his code.
+
+- the navigator for this code was :
+- the driver for this code was : (https://github.com/Ahmad-AbuOsbeh)[Ahmad-AbuOsbeh]
+
 ### THANK YOU
 <ol>
 <li>How did this go, overall? its going will actually</li>
