@@ -16,11 +16,9 @@ function question1() {
     }
     name = name.toUpperCase();
     if (name === 'YES' || name === 'Y') {
-        // console.log(name);
         alert(name);
         score++;
     } else if (name === 'NO' || name === 'N') {
-        // console.log('No My name is Heba Essam');
         alert('No My name is Heba Essam');
     } else {
         ('please answer with only yes/y or no/n');
@@ -38,11 +36,9 @@ function question2() {
     }
     age = age.toUpperCase();
     if (age === 'YES' || age == 'Y') {
-        // console.log(age);
         alert(age);
         score++;
     } else if (age === 'NO' || age === 'N') {
-        // console.log('No my Age is 28');
         alert('No My Age is 28');
     } else {
         ('please answer with only yes/y or no/n');
@@ -58,11 +54,9 @@ function question3() {
     }
     nationality = nationality.toUpperCase();
     if (nationality === 'YES' || nationality === 'Y') {
-        // console.log(nationality);
         alert(nationality);
         score++;
     } else if (nationality === 'NO' || nationality === 'N') {
-        // console.log('My Nationality Is Jordanian');
         alert('My Nationality Is Jordanian');
 
     } else {
@@ -80,11 +74,9 @@ function question4() {
     }
     hobbies = hobbies.toLowerCase();
     if (hobbies === 'yes' || hobbies === 'y') {
-        // console.log(hobbies);
         alert(hobbies);
         score++;
     } else if (hobbies === 'no' || hobbies === 'n') {
-        // console.log('My Hobbies Is Reading');
         alert('My Hobbies Is Reading');
     } else {
         ('please answer with only yes/y or no/n');
@@ -101,11 +93,9 @@ function question5() {
     }
     study = study.toLowerCase();
     if (study === 'yes' || study === 'y') {
-        // console.log(study);
         alert(study);
         score++;
     } else if (study === 'no' || study === 'n') {
-        // console.log('My Study Major Is Communication Engineering');
         alert('My Study Major Is Communication Engineering');
     } else {
         ('please answer with only yes/y or no/n')
@@ -120,19 +110,15 @@ function question6() {
         let yourNumber = prompt('what day is my birthday?');
 
         if (i == 3) {
-            // console.log('its 28');
             alert("its 28")
         }
         else if (yourNumber < 28) {
-            // console.log('low');
             alert('too low');
 
         } else if (yourNumber > 28) {
-            // console.log('big');
             alert('too big');
 
         } else if (yourNumber == 28) {
-            // console.log('right');
             alert('right');
             score++;
             break;
@@ -155,7 +141,6 @@ function question7() {
                 alert(yourFood + ' correct');
                 j = 6;
                 score++;
-                // break;
             }
 
         } if (j == 5) {

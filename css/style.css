@@ -1,6 +1,6 @@
 body{
     background-image: url("https://cdn.salla.sa/xLM2si5JQiwTJKuvt4xXlbeg847zmd8QuxhLJfZj.jpeg");
-    background-color:#f0e4d7 ;
+    background-color:#eef080 ;
     margin: 10%;
 }
 header{
@@ -36,18 +36,22 @@ header nav ul li a{
     margin: 30px 50px 10px 110px;
 }
 .words h3{
+    font-family: 'Lobster', cursive;
     font-size: 30px;
     color: #ffcc29;
 }
 .words h4{
+    font-family: 'Lobster', cursive;
     font-size: 40px;
     color: #d44000;
 }
 main .words ol li{
+    font-family: 'Train One', cursive;
     font-size: 30px;
     color: #e9896a;
 }
 .words p{
+    font-family: 'Lobster', cursive;
     font-size: 30px;
     color: #f88f01;
     margin: 40px 0px 0px 0px;
